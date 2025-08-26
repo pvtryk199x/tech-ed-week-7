@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The API Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>The API Weather App</h1>
+    <p>Enter a city:r</p>
+  </header>
+
+  <main>
+    <form id="weatherForm">
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" placeholder="e.g. London" required />
+      <button type="submit">Show me the Weather!</button>
+    </form>
+
+    <section id="results" aria-live="polite"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
