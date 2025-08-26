@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 1rem;
-  background: #f0f8ff;
+  background: #cf1733;
   color: #333;
 }
 
@@ -26,18 +26,18 @@ input, button {
 }
 
 button {
-  background: #0077cc;
+  background: #0aa5d0;
   color: #fff;
   border: none;
   cursor: pointer;
   border-radius: 6px;
-  transition: background 0.3s;
+
 }
 
 button:hover,
 button:focus {
-  background: #005fa3;
-  outline: none;
+  background: #07c05d;
+  outline:lch(from color l c h);
 }
 
 #results {
@@ -50,7 +50,7 @@ button:focus {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-/* Responsive: on wider screens */
+
 @media (min-width: 600px) {
   form {
     flex-direction: row;
